@@ -32,7 +32,7 @@ export default function Home() {
                 
                 </div>
                 <p>
-                    [O'LEANJI]  LINKS
+                    [OLEANJI]  LINKS
                 </p>
             </div>
           </div>
