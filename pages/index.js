@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.css'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <div className='container-fluid'>
           <div className='row'>
             <div className='col-md-3'> </div>
-              <div className='col-md-6 d-flex align-items-center' style={{flexDirection:'column', color:"grey"}}>
+              <div className='col-md-6 d-flex align-items-center' style={{flexDirection:'column', color:"white"}}>
                 <div className={styles.image}>
                   <Image src='/IMG_9965.jpg'  width={240} height ={210}/>
                 </div>
@@ -31,31 +32,43 @@ export default function Home() {
                
                 
                 </div>
-                <p>
-                    [OLEANJI]  LINKS
+                <p style={{fontSize:"19px"}}>
+                    Web3 Developer | Solidity and Dapps | Helping people on thier web3 journey
                 </p>
             </div>
           </div>
           <div className='row py-3'>
             <div className='col-md-3 d-flex justify-content-center'>
               <div className={styles.Boxes}>
+              <div className={styles.overlay}> </div>
+                <Link href="https://twitter.com/Oleanji_sol" passHref >
+                  <a target="_blank">
+             
                 <div className={styles.n}>
                   <Image src='/icons8-twitter-96.png' className={styles.picc} width={96} height={96}/>
                 </div>
                
-                    <div className={styles.overlay}> </div>
+                  
+                
+                </a>
+                </Link> 
                 <p>
                  Twitter
-                </p>  
+                </p> 
               </div>
+             
             </div>
 
             <div className='col-md-3 d-flex justify-content-center'>
               <div className={styles.Boxes}>
+              <div className= {styles.overlay}> </div>
+              <Link href="https://github.com/OleanjiKingCode" passHref >
+                  <a target="_blank">
                 <div>
-                  <Image src='/icons8-mail-96.png' className={styles.picc} width={96} height={96}  />
+                  <img src='/icons8-github-96.png' className={styles.picc} width={96} height={96}  />
                 </div>
-                 <div className= {styles.overlay}> </div>
+                </a>
+                </Link> 
                 <p>
                    
                   Gihub
@@ -65,10 +78,14 @@ export default function Home() {
 
             <div className='col-md-3 d-flex justify-content-center'>
               <div className={styles.Boxes}>
+              <div className= {styles.overlay}> </div>
+              <Link href="https://twitter.com/Oleanji_sol" passHref >
+                  <a target="_blank">
                 <div>
-                  <Image src='/icons8-github-96.png' className={styles.picc} width={96} height={96}/>
+                  <img src='/icons8-website-96.png' className={styles.picc} width={96} height={96}/>
                 </div>
-                 <div className= {styles.overlay}> </div>
+                </a>
+                </Link> 
                 <p>
                    
                   Website
@@ -78,10 +95,14 @@ export default function Home() {
 
             <div className='col-md-3 d-flex justify-content-center'>
               <div className={styles.Boxes}>
-                <div>
-                  <Image src='/icons8-telegram-app-96.png' className={styles.picc} width={96} height={96}/>
-                </div>
                  <div className= {styles.overlay}> </div>
+                 <Link href="https://twitter.com/Oleanji_sol" passHref >
+                  <a target="_blank">
+                <div>
+                  <img src='/icons8-resume-64.png' className={styles.picc} width={64} height={64}/>
+                </div>
+                </a>
+                </Link> 
                 <p>
                    
                   Download Resume
@@ -89,13 +110,18 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='row'>
+         <div 
+          className='row'>
             <div className='col-md-3 d-flex justify-content-center'>
-                <div className={styles.Boxes}>
+                <div className={styles.Boxes1}>
+                <div className= {styles.overlay}> </div>
+                <Link href="https://twitter.com/Oleanji_sol" passHref >
+                  <a target="_blank">
                   <div>
-                    <Image src='/icons8-telegram-app-96.png' className={styles.picc} width={96} height={96}/>
+                    <img src='/icons8-discord-96.png' className={styles.picc} width={96} height={96}/>
                   </div>
-                   <div className= {styles.overlay}> </div>
+                  </a>
+                </Link> 
                   <p>
                      
                     Discord
@@ -104,10 +130,14 @@ export default function Home() {
               </div>
               <div className='col-md-3 d-flex justify-content-center'>
                 <div className={styles.Boxes}>
-                  <div>
-                    <Image src='/icons8-telegram-app-96.png' className={styles.picc} width={96} height={96}/>
-                  </div>
                    <div className= {styles.overlay}> </div>
+                   <Link href="https://twitter.com/Oleanji_sol" passHref >
+                  <a target="_blank">
+                  <div>
+                    <img src='/icons8-linkedin-color-96.png' className={styles.picc} width={96} height={96}/>
+                  </div>
+                  </a>
+                </Link> 
                   <p>
                      
                     LinkedIn
@@ -116,10 +146,14 @@ export default function Home() {
               </div>
               <div className='col-md-3 d-flex justify-content-center'>
                 <div className={styles.Boxes}>
-                  <div>
-                    <Image src='/icons8-telegram-app-96.png' className={styles.picc} width={96} height={96}/>
-                  </div>
                    <div className= {styles.overlay}> </div>
+                   <Link href="https://twitter.com/Oleanji_sol" passHref >
+                  <a target="_blank">
+                  <div>
+                    <img src='/icons8-telegram-app-96.png' className={styles.picc} width={96} height={96}/>
+                  </div>
+                  </a>
+                </Link> 
                   <p>
                      
                    Telegram
@@ -128,10 +162,14 @@ export default function Home() {
               </div>
               <div className='col-md-3 d-flex justify-content-center'>
                 <div className={styles.Boxes}>
+                <div className= {styles.overlay}> </div>
+                <Link href="https://twitter.com/Oleanji_sol" passHref >
+                  <a target="_blank">
                   <div>
-                    <Image src='/icons8-telegram-app-96.png' className={styles.picc} width={96} height={96}/>
+                    <img src='/icons8-mail-96.png' className={styles.picc} width={96} height={96}/>
                   </div>
-                   <div className= {styles.overlay}> </div>
+                  </a>
+                </Link> 
                   <p>
                      
                     Mail

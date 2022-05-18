@@ -19,9 +19,23 @@
   /* margin: 0px 0 40px 0 ; */
   padding-bottom: 20px;
   background-color: rgb(54, 54, 54);
+  
 }
 .pad{
   padding: 0 20px;
+  animation: waving-hand 2.5s infinite;
+  transform-origin: 70% 70%;
+
+}
+@keyframes waving-hand {
+  0% { transform: rotate( 0.0deg) }
+ 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+ 20% { transform: rotate(-8.0deg) }
+ 30% { transform: rotate(14.0deg) }
+ 40% { transform: rotate(-4.0deg) }
+ 50% { transform: rotate(10.0deg) }
+ 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+100% { transform: rotate( 0.0deg) }
 }
 .boxes {
   border: 5px solid rgb(41, 85, 204);
@@ -50,7 +64,19 @@
   width: 250px;
  
 }
-.Boxes .overlay {
+.Boxes1 {
+  border-radius: 25px;
+  border: 5px solid #8C9EFF;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+ 
+}
+.Boxes .overlay, .Boxes1 .overlay {
   position: absolute;
   border-radius: 25px;
     height: 0px;
@@ -62,31 +88,37 @@
     
    
 }
-.Boxes .picc{
+.Boxes .picc , .Boxes1 .picc{
 
-  z-index: 2;
-  position: absolute;
+  z-index: 999;
+  
   transition: all .3s ease;
 }
-.Boxes:hover{
+.Boxes:hover  .Boxes1:hover{
   border: none  ;
 }
 
 .Boxes:hover .picc {
  
-  position: absolute;
-  overflow: visible;
+ 
+  z-index: 999;
+  transform: translateY(20px);
+}
+.Boxes1:hover .picc {
+  z-index: 999;
   
  transform: translateY(20px);
 }
-/* .Boxes .n{
- padding: 10px;
-} */
-.Boxes:hover .overlay {
+
+.Boxes:hover .overlay, .Boxes1:hover .overlay {
   height: 164px;
   width: inherit;
   opacity: 1;
   z-index: 0;
+}
+.Boxes p , .Boxes1 p{
+  
+  color: white;
 }
 .footer {
  
