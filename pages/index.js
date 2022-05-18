@@ -147,7 +147,7 @@ export default function Home() {
               <div className='col-md-3 d-flex justify-content-center'>
                 <div className={styles.Boxes}>
                    <div className= {styles.overlay}> </div>
-                   <Link href="https://twitter.com/Oleanji_sol" passHref >
+                   <Link href="https://t.me/OLEANJI" passHref >
                   <a target="_blank">
                   <div>
                     <img src='/icons8-telegram-app-96.png' className={styles.picc} width={96} height={96}/>
