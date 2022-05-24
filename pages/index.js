@@ -33,7 +33,7 @@ export default function Home() {
                 
                 </div>
                 <p style={{fontSize:"19px"}}>
-                    Web3 Developer | Solidity and Dapps | Helping people on thier web3 journey
+                    Web3 Developer | Solidity and Dapps | Helping people with my learnings in the web3 space.
                 </p>
             </div>
           </div>
