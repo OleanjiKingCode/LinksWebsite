@@ -115,7 +115,7 @@ export default function Home() {
             <div className='col-md-3 d-flex justify-content-center'>
                 <div className={styles.Boxes1}>
                 <div className= {styles.overlay}> </div>
-                <Link href="https://twitter.com/Oleanji_sol" passHref >
+                <Link href="https://discordapp.com/users/924752131918012436" passHref >
                   <a target="_blank">
                   <div>
                     <img src='/icons8-discord-96.png' className={styles.picc} width={96} height={96}/>
@@ -181,16 +181,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        {/* <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a> */}
+        
         <p className={styles.textfoot}>
           Copywright 2022  &copy; | Oleanji
         </p>
