@@ -96,8 +96,8 @@ export default function Home() {
             <div className='col-md-3 d-flex justify-content-center'>
               <div className={styles.Boxes}>
                  <div className= {styles.overlay}> </div>
-                 <Link href="https://twitter.com/Oleanji_sol" passHref >
-                  <a target="_blank">
+                 <Link href="#" passHref >
+                  <a  href= "https://github.com/OleanjiKingCode/OleanjiKingCode/blob/eb0a5b11cd69fd831e2131a7214732fd48aa8012/Adbayo's%20Resume.pdf" target="_blank" rel='nonreferrer' download>
                 <div>
                   <img src='/icons8-resume-64.png' className={styles.picc} width={64} height={64}/>
                 </div>
