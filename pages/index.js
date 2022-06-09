@@ -79,7 +79,7 @@ export default function Home() {
             <div className='col-md-3 d-flex justify-content-center'>
               <div className={styles.Boxes}>
               <div className= {styles.overlay}> </div>
-              <Link href="https://twitter.com/Oleanji_sol" passHref >
+              <Link href="https://github.com/OleanjiKingCode" passHref >
                   <a target="_blank">
                 <div>
                   <img src='/icons8-website-96.png' className={styles.picc} width={96} height={96}/>
@@ -96,13 +96,13 @@ export default function Home() {
             <div className='col-md-3 d-flex justify-content-center'>
               <div className={styles.Boxes}>
                  <div className= {styles.overlay}> </div>
-                 <Link href="#" passHref >
-                  <a  href= "https://github.com/OleanjiKingCode/OleanjiKingCode/blob/eb0a5b11cd69fd831e2131a7214732fd48aa8012/Adbayo's%20Resume.pdf"  download="/Adbayo's Resume.pdf">
-                <div>
-                  <img src='/icons8-resume-64.png' className={styles.picc} width={64} height={64}/>
-                </div>
+                 
+                  <a  href= "/Adebayo's Resume.pdf"  download>
+                    <div>
+                      <img src='/icons8-resume-64.png' className={styles.picc} width={64} height={64}/>
+                    </div>
                 </a>
-                </Link> 
+                
                 <p>
                    
                   Download Resume
