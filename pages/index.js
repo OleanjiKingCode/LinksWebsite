@@ -97,7 +97,7 @@ export default function Home() {
               <div className={styles.Boxes}>
                  <div className= {styles.overlay}> </div>
                  <Link href="#" passHref >
-                  <a  href= "https://github.com/OleanjiKingCode/OleanjiKingCode/blob/eb0a5b11cd69fd831e2131a7214732fd48aa8012/Adbayo's%20Resume.pdf" target="_blank" rel='nonreferrer' download>
+                  <a  href= "https://github.com/OleanjiKingCode/OleanjiKingCode/blob/eb0a5b11cd69fd831e2131a7214732fd48aa8012/Adbayo's%20Resume.pdf" target="_blank" rel='noreferrer' download>
                 <div>
                   <img src='/icons8-resume-64.png' className={styles.picc} width={64} height={64}/>
                 </div>
