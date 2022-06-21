@@ -79,7 +79,7 @@ export default function Home() {
             <div className='col-md-3 d-flex justify-content-center'>
               <div className={styles.Boxes}>
               <div className= {styles.overlay}> </div>
-              <Link href="https://github.com/OleanjiKingCode" passHref >
+              <Link href="https://adebayo-s-portfolio.vercel.app/" passHref >
                   <a target="_blank">
                 <div>
                   <img src='/icons8-website-96.png' className={styles.picc} width={96} height={96}/>
