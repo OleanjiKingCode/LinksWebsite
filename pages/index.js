@@ -163,6 +163,55 @@ export default function Home() {
               <div className='col-md-3 d-flex justify-content-center'>
                 <div className={styles.Boxes}>
                 <div className= {styles.overlay}> </div>
+                <Link href="https://instagram.com/oleanji_" passHref >
+                  <a target="_blank">
+                  <div>
+                    <img src='/in.png' className={styles.picc} width={96} height={96}/>
+                  </div>
+                  </a>
+                </Link> 
+                  <p>
+                     
+                    Instagram
+                  </p>  
+                </div>
+              </div>
+              <div className='col-md-3 d-flex justify-content-center'>
+                <div className={styles.Boxes}>
+                <div className= {styles.overlay}> </div>
+                <Link href="https://dev.to/oleanji" passHref >
+                  <a target="_blank">
+                  <div>
+                    <img src='/dev.png' className={styles.picc} width={96} height={96}/>
+                  </div>
+                  </a>
+                </Link> 
+                  <p>
+                     
+                    Dev
+                  </p>  
+                </div>
+              </div>
+              <div className='col-md-3 d-flex justify-content-center'>
+                <div className={styles.Boxes}>
+                <div className= {styles.overlay}> </div>
+                <Link href="https://oleanji.hashnode.dev/" passHref >
+                  <a target="_blank">
+                  <div>
+                    <img src='/hash.png' className={styles.picc} width={96} height={96}/>
+                  </div>
+                  </a>
+                </Link> 
+                  <p>
+                     
+                    Hashnode
+                  </p>  
+                </div>
+              </div>
+              
+              <div className='col-md-3 d-flex justify-content-center'>
+                <div className={styles.Boxes}>
+                <div className= {styles.overlay}> </div>
                 <Link href="mailto:oleanji.sol.com? subject=subject text" passHref >
                   <a target="_blank">
                   <div>
